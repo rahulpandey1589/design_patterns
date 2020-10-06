@@ -7,6 +7,7 @@ namespace design_patterns.Decorators
 {
     public class DecoratorStartUp
     {
+        /*
         static void Main(string[] args)
         {
             DecoratorStartUp p
@@ -27,7 +28,6 @@ namespace design_patterns.Decorators
 
             Console.WriteLine($"The description of pizza is {description} and cost of pizza is {cost}");
         }
-
-
+        */
     }
 }
