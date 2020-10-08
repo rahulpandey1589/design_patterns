@@ -3,27 +3,27 @@ using design_patterns.Factory.Interfaces;
 
 namespace design_patterns.Factory.Factories
 {
-    public class HerbivoresAnimalFactory : AnimalFactory
+    /// <summary>
+    /// This class is a concrete creator class 
+    /// </summary>
+    public class CarnivoresAnimalFactory : AnimalFactory
     {
         public override Animal CreateAnimal(AnimalEnum animal)
         {
             Animal animalObj;
 
-            switch(animal)
+            switch (animal)
             {
-                case AnimalEnum.Cow:
-                    animalObj = new Cow();
-                    break;
-
-                case AnimalEnum.Beer:
-                    animalObj = new Beer();
+                case AnimalEnum.Lion:
+                    animalObj = new Lion();
                     break;
 
                 default:
-                    animalObj = new Cow();
+                    animalObj = new Lion();
                     break;
             }
             return animalObj;
+
         }
     }
 }

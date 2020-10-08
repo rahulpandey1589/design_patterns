@@ -1,9 +1,4 @@
-﻿using design_patterns.Factory.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace design_patterns.Factory.Concrete
 {
@@ -11,7 +6,7 @@ namespace design_patterns.Factory.Concrete
     {
         public override void Walk()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Lion is walking....");
         }
     }
 }

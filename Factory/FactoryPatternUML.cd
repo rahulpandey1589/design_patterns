@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="design_patterns.Factory.Concrete.Animal">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Concrete.Beer">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Beer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Concrete.Cat">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Concrete.Cow">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Cow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Concrete.Dog">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Concrete.Lion">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Concrete\Lion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Factories.AnimalFactory" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Factories\AnimalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Factories.CarnivoresAnimalFactory">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Factories\CarnivoresAnimalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="design_patterns.Factory.Factories.HerbivoresAnimalFactory">
+    <Position X="3" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\Factories\HerbivoresAnimalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

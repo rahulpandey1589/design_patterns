@@ -57,10 +57,11 @@
     <Compile Include="Factory\Concrete\Cow.cs" />
     <Compile Include="Factory\Concrete\Dog.cs" />
     <Compile Include="Factory\Concrete\Lion.cs" />
+    <Compile Include="Factory\Factories\AnimalFactory.cs" />
+    <Compile Include="Factory\Factories\CarnivoresAnimalFactory.cs" />
     <Compile Include="Factory\Factories\HerbivoresAnimalFactory.cs" />
     <Compile Include="Factory\FactoryStartup.cs" />
     <Compile Include="Factory\Interfaces\AnimalEnum.cs" />
-    <Compile Include="Factory\Interfaces\IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
