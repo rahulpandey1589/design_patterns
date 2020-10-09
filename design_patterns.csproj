@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactoryClientApplication.cs" />
+    <Compile Include="AbstractFactory\Concrete\Button.cs" />
+    <Compile Include="AbstractFactory\Concrete\Checkbox.cs" />
+    <Compile Include="AbstractFactory\Concrete\MacButton.cs" />
+    <Compile Include="AbstractFactory\Concrete\MacCheckBox.cs" />
+    <Compile Include="AbstractFactory\Concrete\WindowButton.cs" />
+    <Compile Include="AbstractFactory\Concrete\WindowCheckbox.cs" />
+    <Compile Include="AbstractFactory\Factories\GuiFactory.cs" />
+    <Compile Include="AbstractFactory\Factories\MACGuiFactory.cs" />
+    <Compile Include="AbstractFactory\Factories\WindowGUIFactory.cs" />
     <Compile Include="Decorators\ConcretePizza\FarmHouse.cs" />
     <Compile Include="Decorators\ConcretePizza\PeppyPanner.cs" />
     <Compile Include="Decorators\DecoratorStartUp.cs" />
@@ -61,12 +71,14 @@
     <Compile Include="Factory\Factories\CarnivoresAnimalFactory.cs" />
     <Compile Include="Factory\Factories\HerbivoresAnimalFactory.cs" />
     <Compile Include="Factory\FactoryStartup.cs" />
-    <Compile Include="Factory\Interfaces\AnimalEnum.cs" />
+    <Compile Include="Factory\AnimalEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Factory\FactoryPatternUML.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
