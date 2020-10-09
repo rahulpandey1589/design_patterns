@@ -3,6 +3,7 @@ using System;
 
 namespace design_patterns.AbstractFactory
 {
+    /*
     public class AbstractFactoryClientApplication
     {
         static void Main(string[] args)
@@ -17,4 +18,5 @@ namespace design_patterns.AbstractFactory
             Console.Read();
         }
     }
+    */
 }

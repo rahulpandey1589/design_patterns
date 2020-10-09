@@ -72,6 +72,12 @@
     <Compile Include="Factory\Factories\HerbivoresAnimalFactory.cs" />
     <Compile Include="Factory\FactoryStartup.cs" />
     <Compile Include="Factory\AnimalEnum.cs" />
+    <Compile Include="ObserverPattern\ObserverPatternClientApplication.cs" />
+    <Compile Include="ObserverPattern\Observers\ISubjectRequester.cs" />
+    <Compile Include="ObserverPattern\Observers\ObserverA.cs" />
+    <Compile Include="ObserverPattern\Observers\ObserverB.cs" />
+    <Compile Include="ObserverPattern\Subjects\ISubject.cs" />
+    <Compile Include="ObserverPattern\Subjects\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
