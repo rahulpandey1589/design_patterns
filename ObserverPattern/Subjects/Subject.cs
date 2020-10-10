@@ -32,7 +32,7 @@ namespace design_patterns.ObserverPattern.Subjects
 
         public void Remove(ISubjectRequester observer)
         {
-            Console.WriteLine("Subject : Attaching new observer");
+            Console.WriteLine("Subject : Removing the observer");
             _observer.Remove(observer);
         }
     }

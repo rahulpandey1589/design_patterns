@@ -5,6 +5,7 @@ using System.Threading;
 
 namespace design_patterns.ObserverPattern
 {
+    /*
     public class ObserverPatternClientApplication
     {
         static void Main(string[] args)
@@ -34,4 +35,5 @@ namespace design_patterns.ObserverPattern
 
         }
     }
+    */
 }
